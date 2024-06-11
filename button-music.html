@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Botão com Som</title>
+</head>
+<body>
+<audio id="button-sound">
+  <source src="button-sound.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<button onclick="playSound()">Clique Aqui</button>
+
+<script>
+function playSound() {
+  var audio = document.getElementById("button-sound");
+  audio.play();
+}
+</script>
+</body>
+</html>
