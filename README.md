@@ -4,4 +4,4 @@
  Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
 
-Meus exercícios: <a href="#">clique aqui</a>
+Meus exercícios: <a href="https://fabiopretel.github.io/HTML-CSS/pag_exec.html" target="_self">clique aqui</a>
