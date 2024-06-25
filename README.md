@@ -15,7 +15,7 @@
             position: absolute;
             top: 30px;
             left: 50px;
-            display: inline-block;
+            display: block;
         }
 </style>
 <div id="bola">
