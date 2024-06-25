@@ -13,8 +13,6 @@
             margin: 0px;
             padding: 0px;
             position: absolute;
-            top: 30px;
-            left: 50px;
             display: block;
         }
 </style>
