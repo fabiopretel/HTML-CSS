@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 :root{
@@ -17,7 +17,7 @@
 html, body{
     min-height: 100vh;
     background-color: darkgrey;
-    font-family: var(--fonte1);
+    font-family: var(--fonte-1);
 }
 
 header{
@@ -29,12 +29,12 @@ header{
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
-    font-family: var(--fonte2);
+    font-family: var(--fonte-2);
 }
 
 header > p{
     padding-bottom: 50px;
-    font-family: var(--fonte3);
+    font-family: var(--fonte-3);
 }
 
 header a, footer a{
