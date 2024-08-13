@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
     <header>
         <h1>Meu Site</h1>
-        <menu>
+        <i id="burger" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
             <ul>
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
@@ -21,12 +23,21 @@
     </header>
     <main>
         <article>
-            <h1>Testando Media Query</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum provident deleniti iure aliquid distinctio molestiae voluptatum at, quam quisquam est eveniet debitis doloremque qui, porro sit corporis quis adipisci blanditiis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis accusamus nam, et dicta odit, consequatur ratione a facere culpa placeat, quasi officiis ut. Nemo consequuntur consectetur impedit, obcaecati ullam vitae.</p>
+            <h2>Testando Media Query</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum provident deleniti iure aliquid distinctio molestiae voluptatum at, quam quisquam est eveniet debitis doloremque qui, porro sit corporis quis adipisci blanditiis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis accusamus nam, et dicta odit, consequatur ratione a facere culpa placeat, quasi officiis ut. Nemo consequuntur consectetur impedit, obcaecati ullam vitae.</p>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum provident deleniti iure aliquid distinctio molestiae voluptatum at, quam quisquam est eveniet debitis doloremque qui, porro sit corporis quis adipisci blanditiis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis accusamus nam, et dicta odit, consequatur ratione a facere culpa placeat, quasi officiis ut. Nemo consequuntur consectetur impedit, obcaecati ullam vitae.</p>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum provident deleniti iure aliquid distinctio molestiae voluptatum at, quam quisquam est eveniet debitis doloremque qui, porro sit corporis quis adipisci blanditiis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis accusamus nam, et dicta odit, consequatur ratione a facere culpa placeat, quasi officiis ut. Nemo consequuntur consectetur impedit, obcaecati ullam vitae.</p>
         </article>
     </main>
+    <script>
+        function clickMenu() {
+            if(itens.style.display == 'block'){
+                itens.style.display = 'none'
+            }
+            else{
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
